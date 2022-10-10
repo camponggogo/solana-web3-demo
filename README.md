@@ -74,82 +74,82 @@ there are some solana web3 example
 
 ### Tour
 
-*  1.[create keypair](/tree/main/tour/create-keypair/main.en.ts)
+*  1.[create keypair](https://github.com/camponggogo/solana-web3-demo/tree/main/tour/create-keypair)
  * ```bash
       npx ts-node -s /tour/create-keypair/private-key.ts
    ```
-*  2.[retrieve keypair](/tree/main/tour/retrieve-keypair/main.en.ts)
+*  2.[retrieve keypair](https://github.com/camponggogo/solana-web3-demo/tree/main/tour/retrieve-keypair)
  * ```bash
       npx ts-node -s /tour/retrieve-keypair/main.en.ts
    ```
-*  3.[build connection](/tree/main/tour/create-connection/main.en.ts)
+*  3.[build connection](https://github.com/camponggogo/solana-web3-demo/tree/main/tour/create-connection)
  * ```bash
       npx ts-node -s tour/create-connection/main.en.ts
    ```
-*  4.[request airdrop](/tree/main/tour/request-airdrop/main.en.ts)
+*  4.[request airdrop](https://github.com/camponggogo/solana-web3-demo/tree/main/tour/request-airdrop)
  * ```bash
       npx ts-node -s tour/request-airdrop/main.en.ts
    ```
-*  5.[get sol balance](/tree/main/tour/get-sol-balance/main.en.ts)
+*  5.[get sol balance](https://github.com/camponggogo/solana-web3-demo/tree/main/tour/get-sol-balance)
  * ```bash
       npx ts-node -s tour/get-sol-balance/main.en.ts
    ```
-*  6.[sol transfer](/tree/main/tour/transfer/main.en.ts)
+*  6.[sol transfer](https://github.com/camponggogo/solana-web3-demo/tree/main/tour/transfer)
  * ```bash
       npx ts-node -s tour/transfer/main.en.ts
    ```
-*  7.[create mint](/tree/main/tour/create-mint/main.en.ts)
+*  7.[create mint](https://github.com/camponggogo/solana-web3-demo/tree/main/tour/create-mint)
  * ```bash
       npx ts-node -s tour/create-mint/main.en.ts
    ```
-*  8.[get mint info](/tree/main/tour/get-mint/main.en.ts)
+*  8.[get mint info](https://github.com/camponggogo/solana-web3-demo/tree/main/tour/get-mint)
  * ```bash
       npx ts-node -s tour/get-mint/main.en.ts
    ```
-*  9.[create token naccount](/tree/main/tour/create-token-account/main.en.ts)
+*  9.[create token naccount](https://github.com/camponggogo/solana-web3-demo/tree/main/tour/create-token-account)
  * ```bash
       npx ts-node -s tour/create-token-account/main.en.ts
    ```
-* 10.[mint token](/tree/main/tour/mint-to/main.en.ts)
+* 10.[mint token](https://github.com/camponggogo/solana-web3-demo/tree/main/tour/mint-to)
  * ```bash
       npx ts-node -s tour/mint-to/main.en.ts
    ```
-* 11.[get token balance](/tree/main/tour/get-token-balance/main.en.ts)
+* 11.[get token balance](https://github.com/camponggogo/solana-web3-demo/tree/main/tour/get-token-balance)
  * ```bash
       npx ts-node -s tour/get-token-balance/main.en.ts
    ```
-* 12.[token transfer](/tree/main/tour/token-transfer/main.en.ts)
+* 12.[token transfer](https://github.com/camponggogo/solana-web3-demo/tree/main/tour/token-transfer)
  * ```bash
       npx ts-node -s tour/token-transfer/main.en.ts
    ```
 
 ### Advanced
 
-* 1.[Token](/tree/main/advanced/token/README.en.md)
-  * 1.1.[Close account](/tree/main/advanced/token/close-account/main.en.ts)
+* 1.[Token](https://github.com/camponggogo/solana-web3-demo/tree/main/advanced/token/README.en.md)
+  * 1.1.[Close account](https://github.com/camponggogo/solana-web3-demo/tree/main/advanced/token/close-account)
    * ```bash
       npx ts-node -s advanced/token/close-account/main.en.ts
      ```
-  * 1.2.[Get all token accounts by owner](/tree/main/advanced/token/get-all-token-account-by-owner/main.en.ts)
+  * 1.2.[Get all token accounts by owner](https://github.com/camponggogo/solana-web3-demo/tree/main/advanced/token/get-all-token-account-by-owner)
    * ```bash
       npx ts-node -s advanced/token/get-all-token-account-by-owner/main.en.ts
      ```
-  * 1.3.[Wrapped SOL](/tree/main/advanced/token/wrapped-sol)
+  * 1.3.[Wrapped SOL](https://github.com/camponggogo/solana-web3-demo/tree/main/advanced/token/wrapped-sol)
    * ```bash
       npx ts-node -s advanced/token/wrapped-sol/create-token-account/main.en.ts
       npx ts-node -s advanced/token/wrapped-sol/add-balance/main.en.ts
      ```
-* 2.[NFT](/tree/main/advanced/metaplex)
+* 2.[NFT](https://github.com/camponggogo/solana-web3-demo/tree/main/advanced/metaplex)
   * ```bash
       npx ts-node -s advanced/metaplex/mint-nft/main.ts
       npx ts-node -s advanced/metaplex/mint-nft-new/main.ts
       npx ts-node -s advanced/metaplex/get-tokenmeta/main.ts
       npx ts-node -s advanced/metaplex/get-wallet-has-a-specific-nft/main.ts
     ```
-* 3.[Durable Nonce](/tree/main/advanced/durable-nonce/README.en.md)
-* 4.[Send Tx](/tree/main/advanced/send-tx/main.ts)
+* 3.[Durable Nonce](https://github.com/camponggogo/solana-web3-demo/tree/main/advanced/durable-nonce/README.en.md)
+* 4.[Send Tx](https://github.com/camponggogo/solana-web3-demo/tree/main/advanced/send-tx)
  * ```bash
       npx ts-node -s advanced/send-tx/main.ts
    ```
-* 5.[interact with program](/tree/main/advanced/interact-with-program)
+* 5.[interact with program](https://github.com/camponggogo/solana-web3-demo/tree/main/advanced/interact-with-program)
 
