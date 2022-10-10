@@ -1,5 +1,5 @@
 ### Install the Solana Tool Suite
-There are multiple ways to install the Solana tools on your computer depending on your preferred workflow:
+There are multiple ways to install the Solana tools on your computer depending on your preferred workflow:#
 [https://docs.solana.com/cli/install-solana-cli-tools](https://docs.solana.com/cli/install-solana-cli-tools)
 
 ### Solana Cluster RPC Endpoints
