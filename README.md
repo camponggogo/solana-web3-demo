@@ -6,29 +6,84 @@ there are some solana web3 example
 
 ### Tour
 
-*  1.[create keypair](tour/create-keypair/main.en.ts)
-*  2.[retrieve keypair](tour/retrieve-keypair/main.en.ts)
-*  3.[build connection](tour/create-connection/main.en.ts)
-*  4.[request airdrop](tour/request-airdrop/main.en.ts)
-*  5.[get sol balance](tour/get-sol-balance/main.en.ts)
-*  6.[sol transfer](tour/transfer/main.en.ts)
-*  7.[create mint](tour/create-mint/main.en.ts)
-*  8.[get mint info](tour/get-mint/main.en.ts)
-*  9.[create token naccount](tour/create-token-account/main.en.ts)
-* 10.[mint token](tour/mint-to/main.en.ts)
-* 11.[get token balance](tour/get-token-balance/main.en.ts)
-* 12[token transfer](tour/token-transfer/main.en.ts)
+*  1.[create keypair](/tree/main/tour/create-keypair/main.en.ts)
+ * ```bash
+      npx ts-node -s /tour/create-keypair/private-key.ts
+   ```
+*  2.[retrieve keypair](/tree/main/tour/retrieve-keypair/main.en.ts)
+ * ```bash
+      npx ts-node -s /tour/retrieve-keypair/main.en.ts
+   ```
+*  3.[build connection](/tree/main/tour/create-connection/main.en.ts)
+ * ```bash
+      npx ts-node -s tour/create-connection/main.en.ts
+   ```
+*  4.[request airdrop](/tree/main/tour/request-airdrop/main.en.ts)
+ * ```bash
+      npx ts-node -s tour/request-airdrop/main.en.ts
+   ```
+*  5.[get sol balance](/tree/main/tour/get-sol-balance/main.en.ts)
+ * ```bash
+      npx ts-node -s tour/get-sol-balance/main.en.ts
+   ```
+*  6.[sol transfer](/tree/main/tour/transfer/main.en.ts)
+ * ```bash
+      npx ts-node -s tour/transfer/main.en.ts
+   ```
+*  7.[create mint](/tree/main/tour/create-mint/main.en.ts)
+ * ```bash
+      npx ts-node -s tour/create-mint/main.en.ts
+   ```
+*  8.[get mint info](/tree/main/tour/get-mint/main.en.ts)
+ * ```bash
+      npx ts-node -s tour/get-mint/main.en.ts
+   ```
+*  9.[create token naccount](/tree/main/tour/create-token-account/main.en.ts)
+ * ```bash
+      npx ts-node -s tour/create-token-account/main.en.ts
+   ```
+* 10.[mint token](/tree/main/tour/mint-to/main.en.ts)
+ * ```bash
+      npx ts-node -s tour/mint-to/main.en.ts
+   ```
+* 11.[get token balance](/tree/main/tour/get-token-balance/main.en.ts)
+ * ```bash
+      npx ts-node -s tour/get-token-balance/main.en.ts
+   ```
+* 12[token transfer](/tree/main/tour/token-transfer/main.en.ts)
+ * ```bash
+      npx ts-node -s tour/token-transfer/main.en.ts
+   ```
 
 ### Advanced
 
-* 1.[Token](advanced/token/README.en.md)
-  * 1.1.[Close account](advanced/token/close-account/main.en.ts)
-  * 1.2.[Get all token accounts by owner](advanced/token/get-all-token-account-by-owner/main.en.ts)
-  * 1.3.[Wrapped SOL](advanced/token/wrapped-sol)
-* 2.[NFT](advanced/metaplex)
-* 3.[Durable Nonce](advanced/durable-nonce/README.en.md)
-* 4.[Send Tx](advanced/send-tx/main.ts)
-* 5.[interact with program](advanced/interact-with-program)
+* 1.[Token](/tree/main/advanced/token/README.en.md)
+  * 1.1.[Close account](/tree/main/advanced/token/close-account/main.en.ts)
+   * ```bash
+      npx ts-node -s advanced/token/close-account/main.en.ts
+   ```
+  * 1.2.[Get all token accounts by owner](/tree/main/advanced/token/get-all-token-account-by-owner/main.en.ts)
+   * ```bash
+      npx ts-node -s advanced/token/get-all-token-account-by-owner/main.en.ts
+   ```
+  * 1.3.[Wrapped SOL](/tree/main/advanced/token/wrapped-sol)
+   * ```bash
+      npx ts-node -s advanced/token/wrapped-sol/create-token-account/main.en.ts
+      npx ts-node -s advanced/token/wrapped-sol/add-balance/main.en.ts
+   ```
+* 2.[NFT](/tree/main/advanced/metaplex)
+  * ```bash
+      npx ts-node -s advanced/metaplex/mint-nft/main.ts
+      npx ts-node -s advanced/metaplex/mint-nft-new/main.ts
+      npx ts-node -s advanced/metaplex/get-tokenmeta/main.ts
+      npx ts-node -s advanced/metaplex/get-wallet-has-a-specific-nft/main.ts
+   ```
+* 3.[Durable Nonce](/tree/main/advanced/durable-nonce/README.en.md)
+* 4.[Send Tx](/tree/main/advanced/send-tx/main.ts)
+ * ```bash
+      npx ts-node -s advanced/send-tx/main.ts
+   ```
+* 5.[interact with program](/tree/main/advanced/interact-with-program)
 
 ### Solana Cluster RPC Endpoints
 Solana maintains dedicated api nodes to fulfill [JSON-RPC](https://docs.solana.com/developing/clients/jsonrpc-api) requests for each public cluster, and third parties may as well. Here are the public RPC endpoints currently available and recommended for each public cluster:
