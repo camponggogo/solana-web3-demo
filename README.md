@@ -50,7 +50,7 @@ there are some solana web3 example
  * ```bash
       npx ts-node -s tour/get-token-balance/main.en.ts
    ```
-* 12[token transfer](/tree/main/tour/token-transfer/main.en.ts)
+* 12.[token transfer](/tree/main/tour/token-transfer/main.en.ts)
  * ```bash
       npx ts-node -s tour/token-transfer/main.en.ts
    ```
@@ -61,23 +61,23 @@ there are some solana web3 example
   * 1.1.[Close account](/tree/main/advanced/token/close-account/main.en.ts)
    * ```bash
       npx ts-node -s advanced/token/close-account/main.en.ts
-   ```
+     ```
   * 1.2.[Get all token accounts by owner](/tree/main/advanced/token/get-all-token-account-by-owner/main.en.ts)
    * ```bash
       npx ts-node -s advanced/token/get-all-token-account-by-owner/main.en.ts
-   ```
+     ```
   * 1.3.[Wrapped SOL](/tree/main/advanced/token/wrapped-sol)
    * ```bash
       npx ts-node -s advanced/token/wrapped-sol/create-token-account/main.en.ts
       npx ts-node -s advanced/token/wrapped-sol/add-balance/main.en.ts
-   ```
+     ```
 * 2.[NFT](/tree/main/advanced/metaplex)
   * ```bash
       npx ts-node -s advanced/metaplex/mint-nft/main.ts
       npx ts-node -s advanced/metaplex/mint-nft-new/main.ts
       npx ts-node -s advanced/metaplex/get-tokenmeta/main.ts
       npx ts-node -s advanced/metaplex/get-wallet-has-a-specific-nft/main.ts
-   ```
+    ```
 * 3.[Durable Nonce](/tree/main/advanced/durable-nonce/README.en.md)
 * 4.[Send Tx](/tree/main/advanced/send-tx/main.ts)
  * ```bash
